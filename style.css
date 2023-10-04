@@ -1,12 +1,12 @@
 html {
     background-color: #a80000;
     font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
     text-align: center;
   }
 
   body {
-    width: 600px auto;
+    width: 0px auto;
     margin: 0px auto;
     background-color: #ffecc0;
     padding: 0 20px 20px 20px;
@@ -14,6 +14,7 @@ html {
   }
   
   h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-variant: small-caps;
     font-size: 60px;
     margin: 0;
