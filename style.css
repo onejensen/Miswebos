@@ -21,8 +21,9 @@ html {
 
   h2 {
     font-size: 30px;
+    font-weight: 100;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
     color: #000000;
     text-shadow: 2px 2px 5px rgb(128, 128, 128);
   }
@@ -34,27 +35,28 @@ li {
     letter-spacing: 1px;
   }
 
-  .imagen{
-    border-radius:10px;
-    box-shadow: 0px 0px 4px 4px #00000081;
+  footer{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .text {
-    padding: 5px;
-    position: relative;
-    left: 75px;
-    top: 5px;
-    background: #bebebe;
-    width: 100px;
-    height: 15px;
-    color: black;
-    display: none;   /* <----- hides text by default */
-}
+  .imagen{
+    border-radius:10px;
+    box-shadow: 4px 4px 8px #00000081;
+  }
 
-div.container:hover .text {
-    display: block;/* <----- shows text on hover   */
-}
+  .boton {
+    display: flex;
+  }
+  
+  .boton {
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius:10px;
+    box-shadow: 4px 4px 8px #00000081;
+  }
 
 
+  
 
 
