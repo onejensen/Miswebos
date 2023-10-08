@@ -8,9 +8,9 @@ html {
   body {
     width: 0px auto;
     margin: 0px auto;
-    /*background-color: #ff7b7b;*/
+    background-color: #ff7b7b;
     padding: 0 0px 0px 0px;
-    background: linear-gradient(#ff7b7b 90%, #ffffff);   
+  
   }
   
   h1 {
