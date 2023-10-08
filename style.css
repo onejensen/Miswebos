@@ -1,16 +1,16 @@
 html {
-    background-color: #ff7b7b;
+    /*background-color: #ffffff;*/
     font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    font-family:'Courier New', Courier, monospace; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
     text-align: center;
   }
 
   body {
     width: 0px auto;
     margin: 0px auto;
-    background-color: #ff7b7b;
+    /*background-color: #ff7b7b;*/
     padding: 0 0px 0px 0px;
-
+    background: linear-gradient(#ff7b7b 90%, #ffffff);   
   }
   
   h1 {
@@ -24,8 +24,9 @@ html {
     font-weight: 100;
     margin: 0;
     padding: 15px 0;
-    color: #000000;
-    text-shadow: 2px 2px 5px rgb(128, 128, 128);
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(41, 41, 41);
   }
   
 p,
@@ -37,7 +38,6 @@ li {
 
   footer{
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .imagen{
