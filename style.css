@@ -1,7 +1,6 @@
 html {
-    /*background-color: #ffffff;*/
-    font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
-    font-family:'Courier New', Courier, monospace; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    font-size: 12px; 
+    font-family:'Courier New', Courier, monospace; 
     text-align: center;
     text-decoration: none;
   }
