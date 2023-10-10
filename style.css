@@ -6,9 +6,10 @@ html {
   }
 
   .banner{
+    width: 700px;
     max-width: 100%;
   }
-  
+
   body {
     width: 0px auto;
     margin: 0px auto;
