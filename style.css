@@ -44,17 +44,19 @@ li {
     border-radius:10px;
     box-shadow: 4px 4px 8px #00000081;
   }
-
-  .boton {
-    display: flex;
-  }
   
   .boton {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
     border-radius:10px;
     box-shadow: 4px 4px 8px #00000081;
+    transition: 800ms;
   }
+
+  .boton:hover {
+    transform:scale(1.08)
+    
+}
 
 
   
