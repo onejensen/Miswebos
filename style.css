@@ -7,9 +7,8 @@ html {
 
 a {
     font-size: 25px;
-    font-weight: bold;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
   }
 
 .banner{
@@ -19,7 +18,8 @@ a {
 
 body {
     margin: 0px auto;
-    background-color: #ff7b7b;
+    background-color: #aa0000;
+    /*background-color: #ff7b7b;*/
     padding: 0 0px 0px 0px;
   
   }
@@ -55,7 +55,7 @@ footer{
     margin-right: auto;
     margin-left: auto;
     border-radius:10px;
-    box-shadow: 4px 4px 8px #00000081;
+    box-shadow: 4px 4px 8px #000000b8;
     transition: 800ms;
   }
 
