@@ -73,7 +73,7 @@ footer{
   }
 
   @media (max-width: 768px) {
-    .boton {width: 80%}
+    .boton {width: 80% !important}
     }
 
 
