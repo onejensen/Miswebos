@@ -7,8 +7,9 @@ html {
 
 a {
     font-size: 25px;
+    font-weight: bold;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
   }
 
 .banner{
