@@ -5,6 +5,10 @@ html {
     text-align: center;
   }
 
+  .banner{
+    max-width: 100%;
+  }
+  
   body {
     width: 0px auto;
     margin: 0px auto;
@@ -57,6 +61,13 @@ li {
     transform:scale(1.08)
     
 }
+
+  .volver{
+    font-size: 30px;
+    color: #860000;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(41, 41, 41);
+  }
 
 
   
