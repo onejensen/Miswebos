@@ -3,14 +3,19 @@ html {
     font-size: 12px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
     font-family:'Courier New', Courier, monospace; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
     text-align: center;
+    text-decoration: none;
   }
 
-  .banner{
+a {
+    text-decoration: none;
+  }
+
+.banner{
     width: 700px;
     max-width: 100%;
   }
 
-  body {
+body {
     width: 0px auto;
     margin: 0px auto;
     background-color: #ff7b7b;
@@ -18,13 +23,13 @@ html {
   
   }
   
-  h1 {
+h1 {
     color: #00000000;
     font-size: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  h2 {
+h2 {
     font-size: 30px;
     font-weight: 100;
     margin: 0;
@@ -35,22 +40,17 @@ html {
   }
   
 p,
-li {
+  li {
     font-size: 16px;
     line-height: 1;
     letter-spacing: 1px;
   }
 
-  footer{
+footer{
     font-size: 20px;
   }
-
-  .imagen{
-    border-radius:10px;
-    box-shadow: 4px 4px 8px #00000081;
-  }
   
-  .boton {
+.boton {
     margin-right: auto;
     margin-left: auto;
     border-radius:10px;
@@ -58,12 +58,12 @@ li {
     transition: 800ms;
   }
 
-  .boton:hover {
+.boton:hover {
     transform:scale(1.08)
     
-}
+  }
 
-  .volver{
+.volver{
     font-size: 30px;
     color: #860000;
     font-weight: bold;
