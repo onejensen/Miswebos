@@ -1,4 +1,5 @@
 html {
+
     font-size: 12px; 
     font-family:'Courier New', Courier, monospace; 
     text-align: center;
@@ -17,9 +18,11 @@ a {
   }
 
 body {
+    background-size: cover;
     margin: 0px auto;
+    background-image: url(images/nieve.png) ;
+    background-attachment: fixed;
     background-color: #aa0000;
-    /*background-color: #ff7b7b;*/
     padding: 0 0px 0px 0px;
   
   }
@@ -49,6 +52,7 @@ p,
 
 footer{
     font-size: 20px;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
   }
   
 .boton {
@@ -56,7 +60,7 @@ footer{
     margin-left: auto;
     border-radius:10px;
     box-shadow: 4px 4px 8px #000000b8;
-    transition: 800ms;
+    transition: 600ms;
   }
 
 .boton:hover {
