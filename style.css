@@ -4,6 +4,10 @@ html {
     font-family:'Courier New', Courier, monospace; 
     text-align: center;
     text-decoration: none;
+    background-color: #aa0000;
+    background-image: url(images/nieve70.webp) ;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
 a {
@@ -18,13 +22,8 @@ a {
   }
 
 body {
-    background-size: cover;
     margin: 0px auto;
-    background-image: url(images/nieve70.webp) ;
-    background-attachment: fixed;
-    background-color: #aa0000;
     padding: 0 0px 0px 0px;
-  
   }
   
 h1 {
