@@ -76,6 +76,7 @@ footer{
 
   @media (max-width: 768px) {
     .boton {width: 80% !important}
+    background-attachment: fixed;
     }
 
 
