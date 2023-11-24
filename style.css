@@ -74,6 +74,10 @@ footer{
     text-shadow: 2px 2px 5px rgb(41, 41, 41);
   }
 
+h1, h2, a, p{
+  cursor: default;
+}
+
   @media (max-width: 768px) {
     .boton {width: 80% !important}
     background-attachment: fixed;
