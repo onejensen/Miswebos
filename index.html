@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <div class="background">
+    <div class="background"></div>
     <header>
         <h1 id="titulo">Los mejores regalos para estas navidades</h1>
         <img class="banner" src="images/banner.webp" alt="Los mejores regalos para estas navidades">
@@ -68,110 +68,6 @@
         <br>
         <p>&copy Mejores Navidades 2023</p>
     </footer>
-</div>
 </body>
 
 </html>
-
-<style>
-    html {
-  font-size: 12px; 
-  font-family: 'Courier New', Courier, monospace; 
-  text-align: center;
-  text-decoration: none;
-}
-
-.background {
-  position: relative;
-}
-
-.background::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(images/nieve70.webp) 
-  no-repeat center center;
-  background-size: cover;
-  z-index: -1;
-}
-
-a {
-    font-size: 25px;
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-.banner{
-    width: 700px;
-    max-width: 100%;
-  }
-
-body {
-    margin: 0px auto;
-    padding: 0 0px 0px 0px;
-  }
-  
-h1 {
-    color: #00000000;
-    font-size: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
-h2 {
-    font-size: 30px;
-    font-weight: 100;
-    margin: 10px;
-    padding: 15px 0;
-    color: #ffffff;
-    font-weight: bold;
-    text-shadow: 2px 2px 6px rgb(0, 0, 0);
-  }
-  
-p,
-  li {
-    font-size: 16px;
-    line-height: 1;
-    letter-spacing: 1px;
-  }
-
-footer{
-    font-size: 20px;
-    text-shadow: 1px 1px 4px rgb(0, 0, 0);
-  }
-  
-.boton {
-    margin-right: auto;
-    margin-left: auto;
-    border-radius:10px;
-    box-shadow: 4px 4px 8px #000000b8;
-    transition: 600ms;
-  }
-
-.boton:hover {
-    transform:scale(1.08)
-    
-  }
-
-.volver{
-    font-size: 30px;
-    color: #860000;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px rgb(41, 41, 41);
-  }
-
-h1, h2, p{
-  cursor: default;
-}
-
-@media (max-width: 768px) {
-  .background::before {
-      background-attachment: fixed;
-  }
-  .boton {
-      width: 80% !important;
-  }
-}
-</style>
