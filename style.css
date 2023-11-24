@@ -74,7 +74,7 @@ footer{
     text-shadow: 2px 2px 5px rgb(41, 41, 41);
   }
 
-h1, h2, a, p{
+h1, h2, p{
   cursor: default;
 }
 
