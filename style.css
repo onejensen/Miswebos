@@ -76,6 +76,9 @@ footer {
   box-shadow: 4px 4px 8px #000000b8;
   transition: 600ms;
 }
+.offers{
+  margin-bottom: 80px;
+}
 
 .boton:hover {
   transform: scale(1.1);
